@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ValidationRule xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Allow_To_Edit_Only_Status</fullName>
+    <active>true</active>
+    <description>This validation rule only allow to update Status and Task Description field</description>
+    <errorConditionFormula>AND(NOT(ISNEW()),AND(NOT(ISCHANGED(Status__c)),NOT(ISCHANGED(Task_Description__c))))</errorConditionFormula>
+    <errorMessage>User is access to update Status or Task Description field</errorMessage>
+</ValidationRule>

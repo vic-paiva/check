@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>Can_not_modify_process_field</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Can not modify process field</shortDescription>
+        <value>Can not make modification. Please complete initiated task.</value>
+    </labels>
+    <labels>
+        <fullName>Task_metadata_not_found</fullName>
+        <language>en_US</language>
+        <protected>true</protected>
+        <shortDescription>Task metadata not found</shortDescription>
+        <value>Please contact system admin. Task configuration not found for selected process.</value>
+    </labels>
+</CustomLabels>

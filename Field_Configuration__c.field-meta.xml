@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Field_Configuration__c</fullName>
+    <description>Field configuration record to create tasks</description>
+    <fieldManageability>DeveloperControlled</fieldManageability>
+    <inlineHelpText>Please select the field configuration on which the task should be created.</inlineHelpText>
+    <label>Field Configuration</label>
+    <referenceTo>Field_Configuration__mdt</referenceTo>
+    <relationshipLabel>Task Configurations</relationshipLabel>
+    <relationshipName>Task_Configurations</relationshipName>
+    <required>true</required>
+    <type>MetadataRelationship</type>
+    <unique>false</unique>
+</CustomField>
