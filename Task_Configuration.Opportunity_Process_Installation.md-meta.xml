@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Opportunity - Process - Installation</label>
+    <protected>false</protected>
+    <values>
+        <field>Field_Configuration__c</field>
+        <value xsi:type="xsd:string">Opportunity_Process_EV_Installation</value>
+    </values>
+    <values>
+        <field>Task_Description__c</field>
+        <value xsi:type="xsd:string">Installation of an appropriate amperage double-pole circuit breaker (e.g., 40A or 50A for most Level 2 home chargers), which must be a Ground-Fault Circuit Interrupter (GFCI) breaker or the charger itself must have built-in GFCI protection for safety against electric shock.</value>
+    </values>
+    <values>
+        <field>Task_Name__c</field>
+        <value xsi:type="xsd:string">Step 3 : Installation</value>
+    </values>
+    <values>
+        <field>Task_Order__c</field>
+        <value xsi:type="xsd:double">3.0</value>
+    </values>
+</CustomMetadata>

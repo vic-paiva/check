@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomMetadata xmlns="http://soap.sforce.com/2006/04/metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+    <label>Opportunity - Process - Site Survey</label>
+    <protected>false</protected>
+    <values>
+        <field>Field_Configuration__c</field>
+        <value xsi:type="xsd:string">Opportunity_Process_EV_Installation</value>
+    </values>
+    <values>
+        <field>Task_Description__c</field>
+        <value xsi:type="xsd:string">Inspecting the existing main electrical panel, meter, and supply voltage to determine available capacity and if an upgrade (e.g., dedicated transformer, new lines) is needed to support the charging load.</value>
+    </values>
+    <values>
+        <field>Task_Name__c</field>
+        <value xsi:type="xsd:string">Step 1 : Site Survery</value>
+    </values>
+    <values>
+        <field>Task_Order__c</field>
+        <value xsi:type="xsd:double">1.0</value>
+    </values>
+</CustomMetadata>
